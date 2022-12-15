@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/751/110/518/typography-text-math-formula-wallpaper-preview.jpg);
+    background-size: auto;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: azure;
+    font-family: cursive;
+}
+
+.box{
+    background-color: rgba(0, 0, 0, 0.981);
+    width: 30rem;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 20px 20px 20px  rgba(0, 0, 0, 0.658);
+}
+
+.last{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn{
+    margin-top: 2rem;
+    height: 2.5rem;
+    width: 7rem;
+    background-color: rgba(255, 255, 255, 0.878);
+    box-shadow: 1px 1px 7px   rgba(0, 251, 75, 0.485);
+    border: none;
+    font-family: sans-serif;
+    letter-spacing: 4px;
+    font-weight: 549;
+    border-radius: 30px;
+}
+
+.input{
+    width: 10rem;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.878);
+    font-style: italic;
+    margin-top: 0.75rem;
+    margin-bottom: 0.5rem;
+    height: 2rem;
+    width: 15rem;
+    border-radius: 10px;
+    letter-spacing: 1px;
+}
+
+.score{
+    text-align: right;
+    margin-right: 0.5rem;
+}
